@@ -18,7 +18,28 @@
   justify-content: space-between;
   align-items: center;
   padding-right:100px;
-  margin: 20px;
+  margin: 10px;
+}
+
+
+.wrapper .top_nav .right a {
+    border-color: #fd650d;
+    border-width: 5px;
+    border-radius: 50px;
+    padding: 15px 30px;
+    color: #000;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.wrapper .top_nav .right a:hover {
+    background-color: #fd650d;
+    border-radius: 50px;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
 }
 
 .wrapper .top_nav .left {
@@ -28,7 +49,7 @@
 
 .wrapper .top_nav .left .logo {
   width: 150px;
-  margin-right: 25px;
+  margin-right: 15px;
 }
 
 .wrapper .top_nav .left .search_bar input[type="text"] {
@@ -104,8 +125,8 @@
 }
 
 
-.bottom_nav ul li ul li:hover {
-    display: block;
+.bottom_nav ul li ul li {
+    display: none;
 }
 
 .bottom_nav ul li:hover {
