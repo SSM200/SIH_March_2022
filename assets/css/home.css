@@ -3,3 +3,23 @@
 img{
     height: fit-content;
 }
+
+.content{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.region region-sidebar-second{
+    float: right;
+    padding-left: 10px;
+}
+
+.parent {
+    margin: 1rem;
+    padding: 2rem 2rem;
+  }
+  .child {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+  }
