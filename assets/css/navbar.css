@@ -1,2 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,700;1,100;1,400&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #e6e6e6;
+}
+
+.navbar{
+    font-family: "Montserrat", sans-seraf;
+    font-weight: 400;
+}
+
+.navbar-upper button{
+    background-color: #4aa7ff;
+    border-radius: 50%;
+    
+}
