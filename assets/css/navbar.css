@@ -96,6 +96,7 @@
 .navsub {
      display: none;
      background-color: rgb(204, 204, 204);
+     z-index: 10;
 }
 .wrapper .bottom_nav ul li:hover .navsub{
      display: block;
