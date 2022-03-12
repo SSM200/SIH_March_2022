@@ -10,6 +10,18 @@
     background: rgba(0, 0, 0, 0.7);
 }
 
+.parent {
+    margin: 1rem;
+    padding: 2rem 2rem;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .child {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+  }
+
 h3,
 p {
     color: black;
@@ -26,8 +38,7 @@ p {
 
 body {
     overflow-x: hidden;
-    margin-top: 305px;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     /* background: #000116; */
