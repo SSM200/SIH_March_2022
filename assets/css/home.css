@@ -17,6 +17,9 @@ img{
 .parent {
     margin: 1rem;
     padding: 2rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
   }
   .child {
     display: inline-block;
