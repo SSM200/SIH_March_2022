@@ -13,11 +13,13 @@
 .parent {
     margin: 1rem;
     padding: 2rem 2rem;
+    width:fit-content;
     justify-content: space-between;
     text-align: center;
   }
   .child {
     display: inline-block;
+    width: fit-content;
     padding: 1rem 1rem;
     vertical-align: middle;
   }
