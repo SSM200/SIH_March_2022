@@ -10,17 +10,31 @@
   <link rel="stylesheet" href="/assets/css/home.css">
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  
+  <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="./assets/js/home.js"></script>
 </head>
 
 <body>
+  <!--Navigation bar-->
+  <div id="nav-placeholder">
+
+  </div>
+
+  <script>
+    $(function () {
+      $("#nav-placeholder").load("nav.html");
+    });
+  </script>
+  <!--end of Navigation bar-->
 
   <div class="slider">
     <div class="slide active">
       <img src="./assets/img/1.PNG" alt="">
       <div class="info">
         <h2>Winter Mountains</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore magna aliqua.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
       </div>
     </div>
     <div class="slide">
@@ -146,9 +160,7 @@
                       </div>
 
                       <div class="views-row views-row-8 views-row-even views-row-last">
-                        <li class="views-field views-field-title"><a target="_blank">Institutes not applying on portal
-                            for past 6
-                            years for Institutions</a></>
+                        <li class="views-field views-field-title"><a target="_blank">Institutes not applying on portal for past 6 years for Institutions</a></li>
                       </div>
                     </div>
                   </div>
@@ -170,9 +182,6 @@
 
 
   </div>
-  </div>
-  <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="./assets/js/home.js"></script>
 </body>
 
 </html>
