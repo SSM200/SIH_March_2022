@@ -1,82 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
-    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    
-    <link rel="stylesheet" href="/assets/css/navba">
-    <title>Document</title>
-</head>
-<body>
-    <nav class="navbar">
-        <div class="top_nav">
-            <div class="left">
-              <div class="logo"><p><span>Coding</span>Market</p></div>
-              <div class="search_bar">
-                  <input type="text" placeholder="Search">
-              </div>
-          </div> 
-          <div class="right">
-            <ul>
-              <li><a href="#">Whats Next</a></li>
-              <li><a href="#">LogIn</a></li>
-              <li><a href="#">SignUp</a></li>
-              <li><a href="#">Post a Job</a></li>
-            </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Double Navigation Bar</title>
+    <link rel="stylesheet" href="/assets/css/navbar.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="top_nav">
+        <div class="left">
+          <div class="logo">
+            <a href="#"><img src="/assets/img/logo_new.png" /></a>
           </div>
         </div>
-        <div class="container">
-            <a class="logo" href="#"><img src="./assets/img/logo_new.png" alt="" srcset=""></a>
-            <ul class="navbar-upper">
-                <li><button><i class="material-icons">search</i></button></li>
-                <li><a classś="nav-link" href="login.html">Login</a></li>
-            </ul>
-            <!-- <ul class="navbar-lower">
-                <li>About Us
-                    <ul>
-                        <li>Overview</li>
-                        <li>History</li>
-                        <li>Leadership Team</li>
-                        <li>Organisation Structure</li>
-                        <li>Messages</li>
-                        <li>Offices</li>
-                    </ul>
-                </li>
-                <li>Newsroom
-                    <ul>
-                        <li>Overview</li>
-                        <li>News</li>
-                        <li>Press Release</li>
-                        <li>Image Gallery</li>
-                        <li>Video Gallery</li>
-                        <li>Events</li>
-                    </ul>
-                </li>
-                <li>Bureaus
-                    <ul>
-                        <li>Overview</li>
-                        <li>Approval</li>
-                        <li>Policy & Academic</li>
-                        <li>Admission</li>
-                        <li>Finance</li>
-                        <li>Cells</li>
-                        <li></li>
-                    </ul>
-                </li>
-                <li>Initiatives</li>
-                <li>Schemes</li>
-                <li>Education</li>
-                <li>Opportunities</li>
-                <li>Statistics</li>
-                <li>Bulletins</li>
-            </ul> -->
+        <div class="right">
+            <div class="search_bar">
+              <input type="text" placeholder="Search" />
+            </div>
+          <ul>
+            <li><a href="/login.html">Log In</a></li>
+          </ul>
         </div>
-    </nav>
-</body>
+      </div>
+      <div class="bottom_nav">
+        <ul>
+          <li>
+            About Us
+            <div class="navsub">
+              <ul class="navsub">
+                <li>Overview</li>
+                <li>History</li>
+                <li>Leadership Team</li>
+                <li>Organisation Structure</li>
+                <li>Messages</li>
+                <li>Offices</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            Newsroom
+            <div class="navsub">
+              <ul>
+                <li>Overview</li>
+                <li>News</li>
+                <li>Press Release</li>
+                <li>Image Gallery</li>
+                <li>Video Gallery</li>
+                <li>Events</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            Bureaus
+            <div class="navsub">
+              <!-- <ul>
+              <li>Overview</li>
+              <li>Approval</li>
+              <li>Policy & Academic</li>
+              <li>Admission</li>
+              <li>Finance</li>
+              <li>Cells</li>
+            </ul> -->
+            </div>
+          </li>
+          <li>
+            Initiatives
+            <div class="navsub">
+              <!-- <ul>
+              <li>Overview</li>
+              <li>Smart India Hackathon</li>
+              <li>SWAYAM</li>
+              <li>AICTE-CII India Innovation Initiative</li>
+              <li>Clean & Smart Campus Award</li>
+              <li>Cells</li>
+            </ul> -->
+            </div>
+          </li>
+          <li>
+            Schemes
+            <div class="navsub">
+              <!-- <ul>
+              <li>Overview</li>
+              <li>Approval</li>
+              <li>Policy & Academic</li>
+              <li>Admission</li>
+              <li>Finance</li>
+              <li>Cells</li>
+            </ul> -->
+            </div>
+          </li>
+          <li>
+            Education
+            <div class="navsub">
+              <!-- <ul>
+                  <li>Overview</li>
+                  <li>Approval</li>
+                  <li>Policy & Academic</li>
+                  <li>Admission</li>
+                  <li>Finance</li>
+                  <li>Cells</li>
+                </ul> -->
+            </div>
+          </li>
+          <li>
+            Opportunities
+            <div class="navsub">
+              <!-- <ul>
+                  <li>Overview</li>
+                  <li>Approval</li>
+                  <li>Policy & Academic</li>
+                  <li>Admission</li>
+                  <li>Finance</li>
+                  <li>Cells</li>
+                </ul> -->
+            </div>
+          </li>
+          <li>
+            Statistics
+            <div class="navsub">
+              <!-- <ul>
+                    <li>Overview</li>
+                    <li>Approval</li>
+                    <li>Policy & Academic</li>
+                    <li>Admission</li>
+                    <li>Finance</li>
+                    <li>Cells</li>
+                </ul> -->
+            </div>
+          </li>
+          <li>
+            Bulletins
+            <div class="navsub">
+              <!-- <ul>
+                    <li>Overview</li>
+                    <li>Approval</li>
+                    <li>Policy & Academic</li>
+                    <li>Admission</li>
+                    <li>Finance</li>
+                    <li>Cells</li>
+                </ul> -->
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="banner"></div>
+    </div>
+  </body>
 </html>
