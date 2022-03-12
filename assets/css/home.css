@@ -13,8 +13,13 @@
 .parent {
     margin: 1rem;
     padding: 2rem 2rem;
+<<<<<<< HEAD
     width:fit-content;
     justify-content: space-between;
+=======
+    width:390%;
+    justify-content: space-around;
+>>>>>>> 828286a158076082b1bd103632e85821ce393a4f
     text-align: center;
   }
   .child {
